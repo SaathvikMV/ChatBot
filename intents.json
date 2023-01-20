@@ -1,0 +1,201 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "Hello",
+        "Greetings",
+        "Hi",
+        "How do you do?",
+        "Hi there, how can I help?"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Greetings! What can I assist you with?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "I have to go",
+        "Goodbye, have a nice day"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you later! Take care.",
+        "I'm glad I could help. Goodbye for now."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "rental_rates",
+      "patterns": [
+        "What are the rental rates?",
+        "How much does it cost to rent a car?",
+        "What is the cost for a rental?",
+        "How much does it cost to rent a vehicle?"
+      ],
+      "responses": [
+        "Our rental rates vary depending on the type of vehicle and the length of the rental period. Please visit our website or give us a call for more information and to get a quote.",
+        "We have a range of rental rates for our vehicles, depending on the type of car and the length of the rental. Please check our website or give us a call for more information and a quote.",
+        "Our rental rates are based on the type of vehicle and the duration of the rental. Please visit our website or give us a call for more information and to get a quote."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "vehicle_availability",
+      "patterns": [
+        "Do you have any cars available?",
+        "Is there any car available to rent?",
+        "I need a car, do you have any available?",
+        "I want to rent a car, do you have any available?"
+      ],
+      "responses": [
+        "We have a range of vehicles available for rental. Please visit our website or give us a call to check availability and reserve a car.",
+        "Yes, we have a variety of vehicles available for rental. Please check our website or give us a call to see what's available and make a reservation.",
+        "We have a selection of vehicles available for rental. Please visit our website or give us a call to check availability and book a car."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "vehicle_features",
+      "patterns": [
+        "What features do your cars have?",
+        "What amenities are included in the cars?",
+        "Do your cars have any special features?",
+        "What kind of features do your cars have?"
+      ],
+      "responses": [
+        "Our vehicles come with a range of features and amenities. Some of these may include air conditioning, GPS navigation, Bluetooth connectivity, and more. Please visit our website or give us a call for more information about the specific features of our cars.",
+        "Our cars come equipped with a variety of features and amenities. These may include things like air conditioning, GPS navigation, Bluetooth connectivity, and more. Please check our website or give us a call for more information about the features of our vehicles.",
+        "Our rental cars are equipped with a number of features and amenities. These may include air conditioning, GPS navigation, Bluetooth connectivity, and more. Please visit our website or give us a call for more information about the features of our vehicles."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "rental_period",
+      "patterns": [
+        "How long can I rent a car?",
+        "What is the maximum rental period?",
+        "Can I rent a car for a week?",
+        "How long can I keep the car?"
+      ],
+      "responses": [
+        "Our rental periods vary depending on the type of vehicle and the location. Please visit our website or give us a call for more information about the specific rental periods available.",
+        "You can typically rent a car for a minimum of one day and a maximum of several weeks, depending on the type of vehicle and the location. Please check our website or give us a call for more information about the rental periods available.",
+        "Our rental periods range from one day to several weeks, depending on the type of vehicle and the location. Please visit our website or give us a call for more information about the specific rental periods available."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is your rental location?",
+        "Where can I rent a car?",
+        "Do you have a rental location near me?",
+        "Where is the nearest rental location?"
+      ],
+      "responses": [
+        "We have rental locations in various cities and towns. Please visit our website or give us a call to find a location near you.",
+        "We have rental locations throughout the country. Please check our website or give us a call to find the nearest location to you.",
+        "We have rental locations in many different locations. You can find a rental location near you by visiting our website or giving us a call. We have locations in various cities and towns across the country."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "reservation",
+      "patterns": [
+        "How do I make a reservation?",
+        "I want to rent a car, how do I reserve one?",
+        "How can I book a car?",
+        "I want to rent a vehicle, how do I do it?"
+      ],
+      "responses": [
+        "You can make a reservation online through our website or by giving us a call. We will need your contact information, the dates and location of your rental, and the type of vehicle you would like to rent.",
+        "To make a reservation, you can visit our website or give us a call. We will need your contact information, the dates and location of your rental, and the type of vehicle you are interested in renting.",
+        "You can reserve a car online or by phone. We will need your contact information, the dates and location of your rental, and the type of vehicle you would like to rent. Please visit our website or give us a call to make a reservation."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "How do I pay for the rental?",
+        "What are the payment options?",
+        "Can I use a credit card to pay?",
+        "Do you accept debit cards?"
+      ],
+      "responses": [
+        "You can pay for your rental online or in person at the time of pickup. We accept most major credit cards and debit cards, as well as cash and check payments. Please visit our website or give us a call for more information about payment options.",
+        "We accept a variety of payment methods, including credit cards, debit cards, cash, and check. Please visit our website or give us a call for more information about payment options. Payment can be made online or in person at the time of pickup.",
+        "You can pay for your rental using a credit card, debit card, cash, or check. Payment can be made online or in person at the time of pickup. Please visit our website or give us a call for more information about payment options."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "insurance_policy",
+      "patterns": [
+        "What type of insurance is included with the rental?",
+        "Is additional insurance available?",
+        "What does the insurance cover?",
+        "Do I need to provide my own insurance?"
+      ],
+      "responses": [
+        "All of our rental vehicles come with basic insurance coverage. This coverage includes liability insurance and collision damage waiver. Additional insurance options may be available for purchase at the time of rental. Please visit our website or give us a call for more information about the insurance options at your rental location. It is not necessary to provide your own insurance unless specifically requested by the rental location.",
+        "Our rental vehicles come with basic insurance coverage, which includes liability insurance and collision damage waiver. Additional insurance options may be available for purchase at the time of rental. Please check our website or give us a call for more information about the insurance options at your rental location. It is not necessary to provide your own insurance unless specifically requested by the rental location.",
+        "All of our rental vehicles come with basic insurance coverage, which includes liability insurance and collision damage waiver. This coverage is included in the rental price. Additional insurance options may be available for purchase at the time of rental. Please visit our website or give us a call for more information about the insurance options at your rental location. It is not necessary to provide your own insurance unless specifically requested by the rental location."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "age_restriction",
+      "patterns": [
+        "Can I rent a car if I'm under 25?",
+        "Is there an age restriction for renting a car?",
+        "I'm under 25, can I rent a car?",
+        "What is the minimum age for renting a car?"
+      ],
+      "responses": [
+        "Our rental policies vary depending on the location and the type of vehicle. Some locations may have an age restriction of 25 or older, while others may allow rentals to drivers as young as 21. Please visit our website or give us a call for more information about age restrictions and requirements.",
+        "The minimum age for renting a car can vary depending on the location and the type of vehicle. Some locations may have an age restriction of 25 or older, while others may allow rentals to drivers as young as 21. Please check our website or give us a call for more information about age restrictions and requirements.",
+        "Our age requirements for renting a car vary by location and vehicle type. Some locations may have an age restriction of 25 or older, while others may allow rentals to drivers as young as 21. Please visit our website or give us a call for more information about age restrictions and requirements."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "pickup_and_drop_off",
+      "patterns": [
+        "Where can I pick up and drop off the rental car?",
+        "Is it possible to pick up the car at one location and drop it off at another?",
+        "What are the pickup and drop off options?",
+        "Can I extend the rental period?"
+      ],
+      "responses": [
+        "You can pick up and drop off the rental car at one of our designated rental locations. We have several locations available for pickup and drop off. Please visit our website or give us a call for more information about the pickup and drop off options at your location. You may also be able to arrange for pickup and drop off at different locations for an additional fee.",
+        "Our rental cars can typically be picked up and dropped off at any of our designated rental locations. We have several locations available for pickup and drop off. Please check our website or give us a call for more information about the pickup and drop off options at your location. It may also be possible to arrange for pickup and drop off at different locations for an additional fee.",
+        "You can pick up and drop off the rental car at one of our designated rental locations. We have several locations available for pickup and drop off. Please visit our website or give us a call for more information about the pickup and drop off options at your location. It may be possible to arrange for pickup and drop off at different locations for an additional fee. If you need to extend the rental period, please contact us as soon as possible to see if this is possible."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "cancellation_policy",
+      "patterns": [
+        "Can I cancel my reservation?",
+        "What is your cancellation policy?",
+        "Is it possible to get a refund if I need to cancel?",
+        "Do I need to give notice before cancelling my reservation?"
+      ],
+      "responses": [
+        "Yes, you can cancel your reservation at any time. Our cancellation policy varies depending on the location and the type of vehicle. Some locations may allow cancellations with no penalty, while others may have a fee for cancellations. Please visit our website or give us a call for more information about the cancellation policy at your rental location. If you need to cancel your reservation, we recommend doing so as soon as possible to avoid any potential fees.",
+        "Our cancellation policy may vary depending on the location and the type of vehicle. Some locations may allow cancellations with no penalty, while others may have a fee for cancellations. Please check our website or give us a call for more information about the cancellation policy at your rental location. If you need to cancel your reservation, we recommend doing so as soon as possible to avoid any potential fees.",
+        "You can cancel your reservation at any time, but our cancellation policy may vary depending on the location and the type of vehicle. Some locations may allow cancellations with no penalty, while others may have a fee for cancellations. Please visit our website or give us a call for more information about the cancellation policy at your rental location. If you need to cancel your reservation, we recommend doing so as soon as possible to avoid any potential fees."
+      ],
+      "context_set": ""
+    }
+  ]
+}
